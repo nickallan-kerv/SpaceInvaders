@@ -1,0 +1,11 @@
+{
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "debug.javascript.terminalOptions": {
+    "skipFiles": [
+      "<node_internals>/**"
+    ]
+  },
+  "debug.javascript.autoAttachFilter": "disabled"
+}
