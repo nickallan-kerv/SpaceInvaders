@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Integrated Browser",
+      "request": "launch",
+      "type": "editor-browser",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Start Vite dev server"
+    },
+    {
+      "name": "Launch Allan vs Aliens (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Start Vite dev server"
+    },
+    {
+      "name": "Launch Allan vs Aliens (Edge)",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Start Vite dev server"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Install then Launch (Chrome)",
+      "preLaunchTask": "Install dependencies",
+      "configurations": ["Launch Allan vs Aliens (Chrome)"]
+    },
+    {
+      "name": "Install then Launch (Edge)",
+      "preLaunchTask": "Install dependencies",
+      "configurations": ["Launch Allan vs Aliens (Edge)"]
+    }
+  ]
+}
+
