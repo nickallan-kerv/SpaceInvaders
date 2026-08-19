@@ -45,11 +45,11 @@ Recommended flow in this repository:
 
 Core specification documents are in the docs folder:
 
-- docs/spec.md: Primary requirements and acceptance criteria.
-- docs/traceability-matrix.md: Mapping from requirements to implementation and verification.
-- docs/solid-mapping.md: SOLID-oriented architecture mapping.
-- docs/demo-script.md: Demo flow mapped to requirement IDs.
-- docs/backlog.md: Deferred items and tradeoff notes.
+- [docs/spec.md](docs/spec.md): Primary requirements and acceptance criteria.
+- [docs/traceability-matrix.md](docs/traceability-matrix.md): Mapping from requirements to implementation and verification.
+- [docs/solid-mapping.md](docs/solid-mapping.md): SOLID-oriented architecture mapping.
+- [docs/demo-script.md](docs/demo-script.md): Demo flow mapped to requirement IDs.
+- [docs/backlog.md](docs/backlog.md): Deferred items and tradeoff notes.
 
 ## Project Scope Note
 
