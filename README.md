@@ -24,6 +24,20 @@ Using Copilot in this workflow helps with:
 - Preserving traceability from requirement IDs to source files and tests.
 - Iterating quickly while still grounding changes in explicit acceptance criteria.
 
+## Notable Prompt Instructions
+
+```text
+Use SOLID principles (https://en.wikipedia.org/wiki/SOLID).
+```
+
+```text
+Delegate Git operations to GitHub tooling (CLI/API); commit per file with concise, relevant commit messages.
+```
+
+```text
+Maintain the GitHub repository by syncing README/docs with code changes, verifying links and screenshots, and pushing small, traceable updates frequently.
+```
+
 ## Copilot Modes by Phase
 
 This project workflow fits well with three Copilot Agent modes:
