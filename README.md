@@ -1,5 +1,7 @@
 # Allan vs Aliens: GitHub Copilot Specification-Driven Design Experiment
 
+Launch the game [in your browser](https://nickallan-kerv.github.io/SpaceInvaders/)
+
 This repository is an experiment in using GitHub Copilot to build a small game through Specification-Driven Design.
 
 ![Allan vs Aliens gameplay in flight](docs/game-inflight.png)
